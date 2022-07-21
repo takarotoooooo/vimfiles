@@ -12,6 +12,10 @@ set laststatus=2
 set list listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 set helplang=ja,en
 
+let g:lightline = {
+  \ 'colorscheme': 'PaperColor'
+  \ }
+
 autocmd BufWritePre * :%s/\s\+$//ge
 
 nnoremap <leader>n :NERDTreeFocus<CR>
