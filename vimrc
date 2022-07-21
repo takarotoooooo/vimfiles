@@ -10,5 +10,6 @@ set hlsearch
 set ignorecase
 set laststatus=2
 set list listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+set helplang=ja,en
 
 autocmd BufWritePre * :%s/\s\+$//ge
